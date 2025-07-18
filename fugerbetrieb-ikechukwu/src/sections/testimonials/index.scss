@@ -1,0 +1,50 @@
+.testimonials-section {
+  background-color: #fff;
+  padding: 4rem 2rem;
+
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem;
+      color: #222;
+    }
+
+    .testimonial-card {
+      background: #f8f9fa;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      .quote {
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: #555;
+      }
+
+      h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+        color: #111;
+      }
+
+      span {
+        font-size: 0.9rem;
+        color: #888;
+      }
+    }
+  }
+}
