@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "companyName": "Fugerbetrieb Ikechuckwu",
+    "tagline": "Crafting Landmarks. Building Futures.",
+    "cta": "Request a Quote"
+  },
+
+  "about": {
+    "services_title": "Our Services",
+    "service_1": "Repointing & Mortar Repair - Renewing damaged or aged joints with top quality standards.",
+    "service_2": "Brick & Natural Stone Pointing - Precise joint work for demanding materials and facades.",
+    "service_3": "Facade Maintenance - Preserving and enhancing the visual and structural value of your building.",
+    "service_4": "Historical Restoration - Expert joint work for heritage-protected buildings."
+  },
+
+  "why_choose_title": "Why Choose Us",
+  "why_choose_1_title": "Absolute Precision",
+  "why_choose_1_desc": "Our pointing work is executed with exactness and attention to the smallest detail, ensuring structural integrity and lasting beauty.",
+  "why_choose_2_title": "Heritage Expertise",
+  "why_choose_2_desc": "With years of experience, we understand the unique demands of restoring historic and modern facades.",
+  "why_choose_3_title": "Reliable Quality",
+  "why_choose_3_desc": "We use only high-grade materials and proven techniques to deliver long-lasting results.",
+
+  "about_title": "About Fugerbetrieb Ikechuckwu",
+  "about_paragraph_1": "Fugerbetrieb Ikechuckwu is a highly specialized company focused on precision pointing within the construction industry.",
+  "about_paragraph_2": "We are not general constructors — our craft lies in the fine details of mortar joint restoration, facade enhancement, and structural preservation. Our commitment to perfection means we approach each project with a craftsman's eye, combining modern techniques with a deep respect for traditional methods.",
+  "about_paragraph_3": "We take pride in delivering durable and visually flawless work for both modern and heritage buildings. Every line we draw, every joint we fill, speaks of precision, passion, and expertise.",
+
+  "projects": {
+    "title": "Our Projects",
+    "project_1": {
+      "title": "Facade Restoration – Berlin",
+      "description": "Revitalized a century-old facade with high-precision repointing and stone treatment."
+    },
+    "project_2": {
+      "title": "Modern Brick Building – Leipzig",
+      "description": "Executed detailed joint work for a new-age commercial building using durable brick."
+    },
+    "project_3": {
+      "title": "Church Preservation – Dresden",
+      "description": "Handled joint restoration of a heritage church using historically accurate materials."
+    }
+  },
+
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "customer_1": {
+      "name": "Anna Schneider",
+      "feedback": "The pointing work on our historic home was flawless. Truly experts at what they do."
+    },
+    "customer_2": {
+      "name": "Markus Bauer",
+      "feedback": "Reliable, precise, and professional. I highly recommend their team."
+    },
+    "customer_3": {
+      "name": "Lisa Meier",
+      "feedback": "We loved how carefully they restored our facade. Attention to detail is unmatched."
+    }
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "address_title": "Office Address",
+    "phone": "Phone",
+    "email_label": "Email"
+  },
+
+  "footer": {
+    "description": "Precision pointing and façade craftsmanship — modern, historical, and everything in between.",
+    "quick_links": "Quick Links",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

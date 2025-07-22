@@ -103,3 +103,38 @@
         color: #ffffff;
     }
 }
+
+.lang-toggle {
+  position: relative;
+
+  button {
+    background: none;
+    border: none;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .lang-options {
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1000;
+    width: 120px;
+
+    li {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      color: #222;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  }
+}

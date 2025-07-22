@@ -1,9 +1,11 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { useTranslation } from "react-i18next"; 
 import "./index.scss";
 
 const HeroSection = () => {
     const heroRef = useRef(null);
+    const { t } = useTranslation(); 
 
     useEffect(() => {
         gsap.fromTo(
@@ -15,12 +17,14 @@ const HeroSection = () => {
 
     return (
         <section className="hero-section" ref={heroRef}>
-            <img src="/images/hr bg.webp" alt="hr bg" />
+            <img src="/images/hr bg.jpeg" alt="hr bg" />
             <div className="hero-overlay">
                 <div className="hero-content">
-                    <h1>Fugerbetrieb Ikechuckwu</h1>
-                    <p>Crafting Landmarks. Building Futures.</p>
-                    <a href="#contact" className="cta-button">Request a Quote</a>
+                    <h1>{t("hero.companyName")}</h1>
+                    <p>{t("hero.tagline")}</p>
+                    <a href="#contact" className="cta-button">
+                        {t("hero.cta")}
+                    </a>
                 </div>
             </div>
         </section>

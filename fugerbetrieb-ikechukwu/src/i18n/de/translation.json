@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt"
+  },
+
+  "hero": {
+    "companyName": "Fugerbetrieb Ikechuckwu",
+    "tagline": "Wahrzeichen schaffen. Zukunft bauen.",
+    "cta": "Angebot anfordern"
+  },
+
+  "about": {
+    "about_title": "Über uns",
+    "about_description_1": "Bei Fugerbetrieb Ikechuckwu stehen Präzision und Handwerkskunst im Mittelpunkt. Wir sind auf hochwertige Fugensanierungen spezialisiert – mit Fokus auf Nachverfugung, Restaurierung und anspruchsvolle Fassadenarbeiten.",
+    "about_description_2": "Mit tiefem Fachwissen über Materialien, Witterungseinflüsse und strukturelle Details bieten wir Lösungen, die sowohl die Bausubstanz erhalten als auch die Ästhetik verbessern.",
+
+    "services_title": "Unsere Leistungen",
+    "service_1": "Nachverfugung & Mörtelsanierung – Erneuerung beschädigter oder gealterter Fugen nach höchsten Standards.",
+    "service_2": "Verfugung von Ziegel & Naturstein – Präzise Fugenarbeiten für anspruchsvolle Materialien und Fassaden.",
+    "service_3": "Fassadenpflege – Erhalt und Aufwertung des optischen und strukturellen Werts Ihrer Immobilie.",
+    "service_4": "Historische Restaurierung – Fachgerechte Fugenarbeiten für denkmalgeschützte Gebäude."
+  },
+
+  "why_choose_title": "Warum wir?",
+  "why_choose_1_title": "Absolute Präzision",
+  "why_choose_1_desc": "Unsere Fugarbeiten werden mit höchster Genauigkeit und Liebe zum Detail ausgeführt – für dauerhafte Stabilität und Schönheit.",
+  "why_choose_2_title": "Fachwissen im Denkmalschutz",
+  "why_choose_2_desc": "Mit jahrelanger Erfahrung kennen wir die speziellen Anforderungen an historische sowie moderne Fassaden.",
+  "why_choose_3_title": "Verlässliche Qualität",
+  "why_choose_3_desc": "Wir verwenden ausschließlich hochwertige Materialien und bewährte Techniken für langlebige Ergebnisse.",
+
+  "about_title": "Über Fugerbetrieb Ikechuckwu",
+  "about_paragraph_1": "Fugerbetrieb Ikechuckwu ist ein hochspezialisiertes Unternehmen, das sich auf präzise Fugarbeiten im Bauwesen konzentriert.",
+  "about_paragraph_2": "Wir sind keine Generalbauunternehmer – unser Handwerk liegt in den feinen Details der Mörtelsanierung, Fassadenveredelung und strukturellen Erhaltung. Unsere Hingabe zur Perfektion zeigt sich in jedem Projekt, das wir mit modernsten Techniken und traditionellem Fachwissen angehen.",
+  "about_paragraph_3": "Wir sind stolz darauf, sowohl bei modernen als auch historischen Gebäuden langlebige und visuell makellose Ergebnisse zu liefern. Jede Linie, die wir ziehen, jede Fuge, die wir schließen, spricht für Präzision, Leidenschaft und Fachkompetenz.",
+
+  "projects": {
+    "title": "Unsere Projekte",
+    "project_1": {
+      "title": "Fassadenrestaurierung – Berlin",
+      "description": "Sanierung einer Jahrhundertwende-Fassade mit präziser Nachverfugung und Steinbehandlung."
+    },
+    "project_2": {
+      "title": "Modernes Ziegelgebäude – Leipzig",
+      "description": "Detaillierte Fugenarbeiten für ein modernes Geschäftsgebäude aus langlebigem Ziegel."
+    },
+    "project_3": {
+      "title": "Kirchensanierung – Dresden",
+      "description": "Historisch genaue Fugenrestaurierung einer denkmalgeschützten Kirche."
+    }
+  },
+
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "customer_1": {
+      "name": "Anna Schneider",
+      "feedback": "Die Fugenarbeiten an unserem historischen Haus waren makellos. Wirklich Experten."
+    },
+    "customer_2": {
+      "name": "Markus Bauer",
+      "feedback": "Zuverlässig, präzise und professionell. Sehr empfehlenswertes Team."
+    },
+    "customer_3": {
+      "name": "Lisa Meier",
+      "feedback": "Die Fassadensanierung war sehr sorgfältig. Ihre Liebe zum Detail ist einzigartig."
+    }
+  },
+
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "address_title": "Büroadresse",
+    "phone": "Telefon",
+    "email_label": "E-Mail"
+  },
+
+  "footer": {
+  "description": "Präzise Fugentechnik und Fassadenhandwerk — modern, historisch und alles dazwischen.",
+  "quick_links": "Schnellzugriff",
+  "follow_us": "Folge uns",
+  "rights": "Alle Rechte vorbehalten."
+}
+}

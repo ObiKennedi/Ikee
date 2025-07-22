@@ -1,41 +1,45 @@
+import { useTranslation } from "react-i18next";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import "./index.scss";
-import { FaPhone, FaWhatsapp, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
-    return (
-        <footer className="site-footer">
-            <div className="footer-container">
-                <div className="footer-brand">
-                    <h3>Fugerbetrieb Ikechuckwu</h3>
-                    <p>Gut und preiswert – stemmen, sandstrahlen, einfügen.</p>
-                </div>
+  const { t } = useTranslation();
 
-                <div className="footer-contact">
-                    <h4>Contact</h4>
-                    <p><strong>Ansprechpartner:</strong> Godpower Ikechuckwu</p>
-                    <p><FaPhone /> +49 151 64397762</p>
-                    <p><FaWhatsapp /> +49 1521 0472697</p>
-                    <p><FaMapMarkerAlt /> Gotzen Strasse 21, 52511 Geilenkirchen, Deutschland</p>
-                    <p><FaEnvelope /> Nachricht senden</p>
-                </div>
+  return (
+    <footer className="footer">
+      <div className="container">
+        <div className="footer__top">
+          <div className="footer__brand">
+            <h3>Fugerbetrieb Ikechuckwu</h3>
+            <p>{t("footer.description")}</p>
+          </div>
 
-                <div className="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Projects</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+          <div className="footer__links">
+            <h4>{t("footer.quick_links")}</h4>
+            <ul>
+              <li><a href="#home">{t("nav.home")}</a></li>
+              <li><a href="#about">{t("nav.about")}</a></li>
+              <li><a href="#services">{t("nav.services")}</a></li>
+              <li><a href="#contact">{t("nav.contact")}</a></li>
+            </ul>
+          </div>
+
+          <div className="footer__socials">
+            <h4>{t("footer.follow_us")}</h4>
+            <div className="icons">
+              <a href="#"><FaFacebookF /></a>
+              <a href="#"><FaInstagram /></a>
+              <a href="#"><FaLinkedinIn /></a>
             </div>
+          </div>
+        </div>
 
-            <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Fugerbetrieb Ikechuckwu. All rights reserved.</p>
-            </div>
-        </footer>
-    );
+        <div className="footer__bottom">
+          <p>&copy; {new Date().getFullYear()} Fugerbetrieb Ikechuckwu. {t("footer.rights")}</p>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

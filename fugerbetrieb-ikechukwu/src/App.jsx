@@ -2,10 +2,12 @@ import './App.scss'
 import NavBar from './components/nav-bar'
 import HeroSection from './sections/hero'
 import AboutSection from './sections/mini-list'
-import PortfolioSection from './sections/portfolio'
 import ServicesSection from './sections/services'
 import TestimonialsSection from './sections/testimonials'
 import Footer from './components/footer'
+import WhyChooseUs from './components/why-choose-us'
+import ProjectsSection from './sections/portfolio'
+import ContactSection from './sections/contact'
 
 function App() {
 
@@ -14,10 +16,12 @@ function App() {
       <NavBar/>
       <main>
         <HeroSection/>
+        <WhyChooseUs/>
         <AboutSection/>
         <ServicesSection/>
-        <PortfolioSection/>
+        <ProjectsSection/>
         <TestimonialsSection/>
+        <ContactSection/>
       </main>
       <Footer/>
     </>

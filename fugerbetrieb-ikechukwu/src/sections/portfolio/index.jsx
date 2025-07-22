@@ -1,70 +1,43 @@
 import "./index.scss";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import { useTranslation } from "react-i18next";
 
-const portfolioData = [
+const projects = [
   {
-    category: "Residential Projects",
-    images: [
-      "/images/image 1.jpg",
-      "/images/image 2.jpg",
-      "/images/image 3.jpg",
-    ],
+    image: "/images/image 1.jpg",
+    titleKey: "projects.project_1.title",
+    descriptionKey: "projects.project_1.description",
   },
   {
-    category: "Commercial Projects",
-    images: [
-      "/images/image 1.jpg",
-      "/images/image 2.jpg",
-      "/images/image 3.jpg",
-    ],
+    image: "/images/image 2.jpg",
+    titleKey: "projects.project_2.title",
+    descriptionKey: "projects.project_2.description",
   },
   {
-    category: "Infrastructure & Roads",
-    images: [
-      "/images/image 1.jpg",
-      "/images/image 2.jpg",
-      "/images/image 3.jpg",
-    ],
+    image: "/images/image 3.jpg",
+    titleKey: "projects.project_3.title",
+    descriptionKey: "projects.project_3.description",
   },
 ];
 
-const PortfolioSection = () => {
-  return (
-    <section className="portfolio-section" id="portfolio">
-      <div className="container">
-        <h2>Our Projects</h2>
+const ProjectsSection = () => {
+  const { t } = useTranslation();
 
-        {portfolioData.map((category, index) => (
-          <div className="category-block" key={index}>
-            <h3>{category.category}</h3>
-            <Swiper
-              modules={[Navigation, Pagination]}
-              spaceBetween={20}
-              slidesPerView={1}
-              navigation
-              pagination={{ clickable: true }}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-            >
-              {category.images.map((img, i) => (
-                <SwiperSlide key={i}>
-                  <div className="project-card">
-                    <img src={img} alt={`${category.category} ${i + 1}`} />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        ))}
+  return (
+    <section className="projects-section" id="projects">
+      <div className="container">
+        <h2>{t("projects.title")}</h2>
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <div className="project-card" key={index}>
+              <img src={project.image} alt={t(project.titleKey)} />
+              <h3>{t(project.titleKey)}</h3>
+              <p>{t(project.descriptionKey)}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
 };
 
-export default PortfolioSection;
+export default ProjectsSection;
