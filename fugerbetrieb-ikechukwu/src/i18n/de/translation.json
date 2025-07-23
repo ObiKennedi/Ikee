@@ -40,16 +40,16 @@
   "projects": {
     "title": "Unsere Projekte",
     "project_1": {
-      "title": "Fassadenrestaurierung – Berlin",
-      "description": "Sanierung einer Jahrhundertwende-Fassade mit präziser Nachverfugung und Steinbehandlung."
+      "title": "Fassadensanierung – Aldenhoven",
+      "description": "Eine jahrhundertealte Fassade wurde durch hochpräzise Fugen- und Steinbehandlungen revitalisiert."
     },
     "project_2": {
-      "title": "Modernes Ziegelgebäude – Leipzig",
-      "description": "Detaillierte Fugenarbeiten für ein modernes Geschäftsgebäude aus langlebigem Ziegel."
+      "title": "Kirchenerhaltung – Mönchengladbach",
+      "description": "Gemeinsame Restaurierung einer denkmalgeschützten Kirche unter Verwendung historisch korrekter Materialien."
     },
     "project_3": {
-      "title": "Kirchensanierung – Dresden",
-      "description": "Historisch genaue Fugenrestaurierung einer denkmalgeschützten Kirche."
+      "title": "Moderner Backsteinbau – Mönchengladbach",
+      "description": "Ausführung detaillierter Fugenarbeiten für ein modernes Geschäftsgebäude unter Verwendung langlebiger Ziegel."
     }
   },
 
@@ -77,7 +77,8 @@
     "send": "Nachricht senden",
     "address_title": "Büroadresse",
     "phone": "Telefon",
-    "email_label": "E-Mail"
+    "email_label": "E-Mail",
+    "whatsapp": "WhatsApp"
   },
 
   "footer": {

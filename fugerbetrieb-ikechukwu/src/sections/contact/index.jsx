@@ -43,8 +43,10 @@ const ContactSection = () => {
 
           <div className="contact-details">
             <h3>{t("contact.address_title")}</h3>
-            <p>Im Neuen Feld 13, 76532 Baden-Baden, Germany</p>
-            <p><strong>{t("contact.phone")}:</strong> +49 176 9876 5432</p>
+            <p>Godspower Ikechukwu</p>
+            <p>Gotzen strasse 21, 52511 Geilenkirchen, Germany</p>
+            <p><strong>{t("contact.phone")}:</strong> +49 151 6439 7762</p>
+            <p><strong>{t("contact.whatsapp")}:</strong> +49 152 1047 2697</p>
             <p><strong>{t("contact.email_label")}:</strong> oneikegod@yahoo.com</p>
           </div>
         </div>
