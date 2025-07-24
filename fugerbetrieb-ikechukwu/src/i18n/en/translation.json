@@ -35,18 +35,10 @@
 
   "projects": {
     "title": "Our Projects",
-    "project_1": {
-      "title": "Facade Restoration – Aldenhoven",
-      "description": "Revitalized a century-old facade with high-precision repointing and stone treatment."
-    },
-    "project_2": {
-      "title": "Church Preservation – Monchengladbach",
-      "description": "Handled joint restoration of a heritage church using historically accurate materials."
-    },
-    "project_3": {
-      "title": "Modern Brick Building – Monchengladbach",
-      "description": "Executed detailed joint work for a new-age commercial building using durable brick."
-    }
+    "project1": "Project One",
+    "project2": "Project Two",
+    "project3": "Project Three",
+    "project4": "Project Four"
   },
 
   "testimonials": {

@@ -2,21 +2,10 @@ import "./index.scss";
 import { useTranslation } from "react-i18next";
 
 const projects = [
-  {
-    image: "/images/image 1.jpg",
-    titleKey: "projects.project_1.title",
-    descriptionKey: "projects.project_1.description",
-  },
-  {
-    image: "/images/image 2.jpg",
-    titleKey: "projects.project_2.title",
-    descriptionKey: "projects.project_2.description",
-  },
-  {
-    image: "/images/image 3.jpg",
-    titleKey: "projects.project_3.title",
-    descriptionKey: "projects.project_3.description",
-  },
+  { image: "/images/image 1.jpg", labelKey: "project1", city: "Monchengladbach" },
+  { image: "/images/image 2.jpg", labelKey: "project2", city: "Baesweiler" },
+  { image: "/images/image 3.jpg", labelKey: "project3", city: "Aldenhoven" },
+  { image: "/images/image 4.jpg", labelKey: "project4", city: "Baesweiler" }
 ];
 
 const ProjectsSection = () => {
@@ -29,9 +18,11 @@ const ProjectsSection = () => {
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
-              <img src={project.image} alt={t(project.titleKey)} />
-              <h3>{t(project.titleKey)}</h3>
-              <p>{t(project.descriptionKey)}</p>
+              <img src={project.image} alt={`${t(`projects.${project.labelKey}`)} - ${project.city}`} />
+              <div className="project-info">
+                <h3>{t(`projects.${project.labelKey}`)}</h3>
+                <p>{project.city}</p>
+              </div>
             </div>
           ))}
         </div>

@@ -39,18 +39,10 @@
 
   "projects": {
     "title": "Unsere Projekte",
-    "project_1": {
-      "title": "Fassadensanierung – Aldenhoven",
-      "description": "Eine jahrhundertealte Fassade wurde durch hochpräzise Fugen- und Steinbehandlungen revitalisiert."
-    },
-    "project_2": {
-      "title": "Kirchenerhaltung – Mönchengladbach",
-      "description": "Gemeinsame Restaurierung einer denkmalgeschützten Kirche unter Verwendung historisch korrekter Materialien."
-    },
-    "project_3": {
-      "title": "Moderner Backsteinbau – Mönchengladbach",
-      "description": "Ausführung detaillierter Fugenarbeiten für ein modernes Geschäftsgebäude unter Verwendung langlebiger Ziegel."
-    }
+    "project1": "Projekt Eins",
+    "project2": "Projekt Zwei",
+    "project3": "Projekt Drei",
+    "project4": "Projekt Vier"
   },
 
   "testimonials": {
@@ -82,9 +74,9 @@
   },
 
   "footer": {
-  "description": "Präzise Fugentechnik und Fassadenhandwerk — modern, historisch und alles dazwischen.",
-  "quick_links": "Schnellzugriff",
-  "follow_us": "Folge uns",
-  "rights": "Alle Rechte vorbehalten."
-}
+    "description": "Präzise Fugentechnik und Fassadenhandwerk — modern, historisch und alles dazwischen.",
+    "quick_links": "Schnellzugriff",
+    "follow_us": "Folge uns",
+    "rights": "Alle Rechte vorbehalten."
+  }
 }
