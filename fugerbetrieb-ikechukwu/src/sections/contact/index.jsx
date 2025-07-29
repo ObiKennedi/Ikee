@@ -13,10 +13,10 @@ const ContactSection = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_umcqkdd",
+        "template_uda909p",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "OR3Ad3nZuAAhPqHvZ"
       )
       .then(
         (result) => {
